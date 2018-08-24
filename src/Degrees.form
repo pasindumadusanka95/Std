@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="699" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="33" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelHomeback" min="-2" pref="77" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="309" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabelHomeback" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="20" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Degree Programmes"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelHomeback">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/icons8_Go_Back_30px.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabelHomebackMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jButtonBusniessP" max="32767" attributes="0"/>
+                              <Component id="labelBus" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jButtonBusiness" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jButtonEngineering" alignment="0" max="32767" attributes="0"/>
+                              <Component id="labelEng" alignment="0" max="32767" attributes="0"/>
+                              <Component id="labelCom" alignment="1" max="32767" attributes="0"/>
+                              <Component id="labelCom2" alignment="1" max="32767" attributes="0"/>
+                              <Component id="labelBus1" alignment="1" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButtonComputing" min="-2" pref="225" max="-2" attributes="0"/>
+                                      <Component id="jButtonComputingP" alignment="0" min="-2" pref="225" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel3" min="-2" pref="162" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" pref="162" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButtonBusiness" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="labelBus" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButtonComputing" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  <Component id="labelCom" min="-2" pref="9" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButtonEngineering" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="labelEng" min="-2" pref="8" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="28" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="jButtonBusniessP" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="labelBus1" min="-2" pref="8" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButtonComputingP" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="labelCom2" min="-2" pref="9" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelBus">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCom">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelEng">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonEngineering">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="School of Engineering"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEngineeringActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonComputing">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="School of Computing"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonComputingActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonBusiness">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="School of Business"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBusinessActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Postgraduate"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Undergraduate"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonBusniessP">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="School of Business"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBusniessPActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonComputingP">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="16" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="School of Computing"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonComputingPActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCom2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelBus1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="opaque" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlBody">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelBusiness">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="card3"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textArea4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="textArea2" alignment="1" min="-2" pref="657" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel7" min="-2" pref="401" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel12" min="-2" pref="391" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel13" min="-2" pref="391" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="textArea5" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="142" pref="142" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel8" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel7" min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="textArea2" min="-2" pref="154" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel12" alignment="0" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel14" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel15" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="textArea4" min="-2" pref="145" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel13" alignment="1" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel11" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="textArea5" min="-2" pref="147" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc in Business Management (Human Resource Management) "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Special-4 Years"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="General-3 Years "/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea2">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="This programme proposes to prepare undergraduates to demonstrate conceptual knowledge in different disciplines that &#xa; supports and facilitates lifelong learning.It also develops the participants&apos; capability to translate acquired knowledge into&#xa; business practices of different industries.The ultimate goal is to create undergraduates with a strong sense of responsibility&#xa; and commitment towards business development in the nation through the development of leadership proficiency, business&#xa; proficiency and human relational skills.This degree programme is carefully designed with the intention of producing fully-fledged&#xa; business graduates who will be ideal candidates meeting the highest industry standards in knowledge as well as competency.&#xa;The employability of participants of this programme is sky high in the corporate world, especially since it is a UGC approved degree&#xa; paired with the international standards of NSBM.&#xa;&#xa;YEAR 1&#xa;Full Time&#xa;&#xa;Management Process&#xa;Business Communication&#xa;Financial Accounting&#xa;Economics for Managers&#xa;Business Mathematics and Statistics&#xa;Managerial accounting&#xa;Information and Communication Technology (ICT)&#xa;Business Environment&#xa;Introduction to Project Management&#xa;Critical Enabling Skills Training&#xa;&#xa;YEAR 2&#xa;Full Time&#xa;&#xa;Organizational Behaviour&#xa;Professional Development&#xa;Marketing Management&#xa;Advanced Financial accounting&#xa;Logistics Management&#xa;Financial Management&#xa;Human Resource Management&#xa;Quality Management&#xa;Introduction to Operations Management&#xa;Industrial Relations&#xa;Industrial Training&#xa;&#xa;YEAR 3&#xa;Part Time&#xa;&#xa;Strategic Management&#xa;Management Information Systems&#xa;International Business Management&#xa;Business &amp; Industrial Law&#xa;Employee Resourcing&#xa;Human resources Development&#xa;&#xa;YEAR 4&#xa;Part Time&#xa;&#xa;Research Methodology&#xa;Performance Management&#xa;Rewards Management&#xa;Strategic Human Resource Management&#xa;HR Processes and Systems&#xa;&#xa;Entry Requirement for BSc Business Management (Human Resource Management) degree&#xa;&#x9;GCE Ordinary Level - Passes for six subjects (with 3 credit passes)&#xa;&#x9;GCE Advance Level (New Syllabus) - Passes for 3 subjects in one attempt&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee : LKR 5,000&#xa;&#x9;Library Fee : LKR 5,000&#xa;&#x9;Year 1 : LKR 400,000&#xa;&#x9;Year 2 : LKR 400,000&#xa;&#x9;Year 3 : LKR 300,000&#xa;&#x9;Year 4 : LKR 300,000&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel12">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc in Business Management(Logistic Management)"/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea4">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="This programme proposes to prepare undergraduates to demonstrate conceptual knowledge in different disciplines that supports&#xa;and facilitates lifelong learning.It also develops the participants&apos; capability to translate acquired knowledge into business practices &#xa;of different industries.The ultimate goal is to create undergraduates with a strong sense of responsibility and commitment towards &#xa;business development in the nation through the development of leadership proficiency, business proficiency and human relational &#xa;skills.This degree programme is carefully designed with the intention of producing fully-fledged business graduates who will be&#xa;ideal candidates meeting the highest industry standards in knowledge as well as competency.The employability of participants&#xa;of this programme is sky high in the corporate world, especially since it is a UGC approved degree paired with the international &#xa;standards of NSBM.&#xa;&#xa;YEAR 1&#xa;Full Time&#xa;&#xa;Management Process&#xa;Business Communication&#xa;Financial Accounting&#xa;Economics for Managers&#xa;Business Mathematics and Statistics&#xa;Managerial accounting&#xa;Information and Communication Technology (ICT)&#xa;Business Environment&#xa;Introduction to Project Management&#xa;Critical Enabling Skills Training&#xa;&#xa;YEAR 2&#xa;Full Time&#xa;&#xa;Organizational Behavior&#xa;Professional Development&#xa;Marketing Management&#xa;Advanced Financial accounting&#xa;Logistics Management&#xa;Financial Management&#xa;Human Resource Management&#xa;Quality Management&#xa;Introduction to Operations Management&#xa;Industrial Relations&#xa;Industrial Training&#xa;&#xa;YEAR 3&#xa;Full Time&#xa;&#xa;Strategic Management&#xa;Management Information Systems&#xa;International Business Management&#xa;Business &amp; Industrial Law&#xa;Inventory &amp; Warehouse Management&#xa;Procurement Management&#xa;&#xa;YEAR 4&#xa;Full Time&#xa;&#xa;Research Methodology&#xa;Import and Export Management Related to Logistics&#xa;Maritime Law in Logistics&#xa;Modeling in Transportation Logistics&#xa;Supply Chain Management&#xa;&#xa;Entry Requirement for BSc Business Management (Logistics Management)  degree&#xa;&#x9;GCE Ordinary Level - Passes for six subjects (with 3 credit passes)&#xa;&#x9;GCE Advance Level (New Syllabus) - Passes for 3 subjects in one attempt&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee : LKR 5,000&#xa;&#x9;Library Fee : LKR 5,000&#xa;&#x9;Year 1 : LKR 400,000&#xa;&#x9;Year 2 : LKR 400,000&#xa;&#x9;Year 3 : LKR 300,000&#xa;&#x9;Year 4 : LKR 300,000&#xa;&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="General-3 Years "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Special-4 Years"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel13">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc in Business Management(Project Management)"/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea5">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="This programme proposes to prepare undergraduates to demonstrate conceptual knowledge in different disciplines that supports&#xa;and facilitates lifelong learning.It also develops the participants&apos; capability to translate acquired knowledge into business practices &#xa;of different industries.The ultimate goal is to create undergraduates with a strong sense of responsibility and commitment towards &#xa;business development in the nation through the development of leadership proficiency, business proficiency and human relational &#xa;skills.This degree programme is carefully designed with the intention of producing fully-fledged business graduates who will be&#xa;ideal candidates meeting the highest industry standards in knowledge as well as competency.The employability of participants&#xa;of this programme is sky high in the corporate world, especially since it is a UGC approved degree paired with the international &#xa;standards of NSBM.&#xa;&#xa;YEAR 1&#xa;Full Time&#xa;&#xa;Management Process&#xa;Business Communication&#xa;Financial Accounting&#xa;Economics for Managers&#xa;Business Mathematics and Statistics&#xa;Managerial accounting&#xa;Information and Communication Technology (ICT)&#xa;Business Environment&#xa;Introduction to Project Management&#xa;Critical Enabling Skills Training&#xa;&#xa;YEAR 2&#xa;Full Time&#xa;&#xa;Organizational Behavior&#xa;Professional Development&#xa;Marketing Management&#xa;Advanced Financial accounting&#xa;Logistics Management&#xa;Financial Management&#xa;Human Resource Management&#xa;Quality Management&#xa;Introduction to Operations Management&#xa;Industrial Relations&#xa;Industrial Training&#xa;&#xa;&#xa;YEAR 3&#xa;Full Time&#xa;&#xa;Strategic Management&#xa;Management Information Systems&#xa;International Business Management&#xa;Business &amp; Industrial Law&#xa;Scope Management&#xa;Time Management&#xa;&#xa;YEAR 4&#xa;Full Time&#xa;&#xa;Research Methodology&#xa;Cost Management&#xa;Project Risk and Quality Management&#xa;Project HR Management&#xa;Project Monitoring, Control, Evaluation and Termination&#xa;&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee : LKR 5,000&#xa;&#x9;Library Fee : LKR 5,000&#xa;&#x9;Year 1 : LKR 400,000&#xa;&#x9;Year 2 : LKR 400,000&#xa;&#x9;Year 3 : LKR 300,000&#xa;&#x9;Year 4 : LKR 300,000&#xa;&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Special-4 Years"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="General-3 Years "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelComputing">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="card3"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textArea3" alignment="0" min="-2" pref="744" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="jLabel16" min="-2" pref="344" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="417" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel22" min="-2" pref="344" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="textArea6" min="-2" pref="744" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="jLabel19" min="-2" pref="344" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textArea7" min="-2" pref="744" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="jLabel18" min="-2" pref="22" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel17" min="-2" pref="22" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="textArea3" min="-2" pref="154" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel16" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel20" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel21" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel22" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel23" min="-2" pref="22" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel24" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="textArea6" min="-2" pref="154" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="jLabel19" min="-2" pref="42" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="textArea7" min="-2" pref="154" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="235" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel16">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc (Honours) in Computer Science"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel17">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="General-3 Years "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel18">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Special-4 Years"/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea3">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="Students have an option of exiting at the end of 3rd year with a BSc. In Software Engineering degree or further study for a 4th Year acquiring a Honours degree in Software Engineering.&#xa;4th Year of the degree programme will be offered on a part time basis and students will be employed during this period acquiring valuable industry experience to launch a successful career in Software development.&#xa;Students have a rich choice of elective modules to choose from, in their final year of studies, to cater individual preferences and ambitions.&#xa;All students are placed in a 6 months internship in the 3rd year at reputed SW development companies.&#xa;You will be studying your degree in a Computing faculty that has a history running back to 1980&apos;s.&#xa;&#xa;YEAR 1 (FULL TIME)&#xa;&#xa;In Year 1, students follow a curricula consisting of six Software Engineering core modules and four foundation modules from wider discipline of computing science and mathematics. This level of study lays a strong computing and software engineering foundation to the students on which they develop more specialised learning related to software engineering and systems and application specialties.&#xa;&#xa;Introduction to Computer Science&#xa;Mathematics I&#xa;Programming in C&#xa;Professional Development&#xa;Data communications and networks&#xa;Object Oriented Programming with Java&#xa;Algorithms and Data structures&#xa;Computer Architecture&#xa;Database Management Systems&#xa;Web Based Application Development&#xa;YEAR 2 (FULL TIME)&#xa;&#xa;In Year 2, students continue to follow 5 core Software Engineering modules and 5 other computing elective modules that provides them a strong computing foundation including exposure to business processes.&#xa;&#xa;Operating Systems&#xa;Introduction to Software Engineering&#xa;Mathematics II&#xa;Systems Analysis and Design&#xa;Algorithms and Complexity&#xa;Computer Networks&#xa;Development of Enterprise Applications I&#xa;Software Architecture&#xa;Human Computer Interaction&#xa;Business Processes and ERP&#xa;YEAR 3 (PART TIME)&#xa;&#xa;In Year 3, students continue to follow 8 core Software Engineering modules including the internship module that amounts to a total of 29 credits. Students are also offered 2 elective modules and they should choose at least one module to cover the credit requirement for Level 3. At the end of Level 3 students have covered all core SE subject areas together with a significant number of elective modules addressing related systems and application specialties and provides an acceptable exit point for BSc in Software engineering award. Students those opt for the 3 year BSc in Software Engineering degree should undertake SE award project as a core module in addition to the other 8 core modules mentioned before and they do not have to take any elective modules.&#xa;&#xa;Mathematics III&#xa;Software Quality Assurance&#xa;Social Issues and Professional Practice&#xa;SW Process Management&#xa;Information Assurance and Security&#xa;Software Verification and Validation&#xa;Software Process&#xa;Internship&#xa;Mobile Application Development (Elective)&#xa;Advanced Database Management Systems (Elective)&#xa;SE Award Project&#xa;&#xa;YEAR 4 (PART TIME)&#xa;&#xa;In Year 4, BSc (Hons) in Software Engineering students follow 2 core modules including the award specific project that weigh 8 credits and continue throughout the year. To satisfy the credit requirement of Level 4, students have to undertake minimum of 7 elective modules from a total of 12 modules. In the final year of study, students culminate their learning by acquiring specialized subject content required for diverse industries and knowledge on contemporary developments. Students also get an opportunity to showcase their learning over the years via the award specific project.&#xa;&#xa;Business Policy and Strategy&#xa;SE Honours Award Project&#xa;Intelligent Systems (Elective)&#xa;Parallel and Distributed Computing (Elective)&#xa;Data Warehousing and Data Mining (Elective)&#xa;Internet of Things (Elective)&#xa;Embedded Systems (Elective)&#xa;Platform Based Development (Elective)&#xa;Development of Enterprise Applications II (Elective)&#xa;Agent Based Systems (Elective)&#xa;Enterprise Networks (Elective)&#xa;Computer Graphics and Visualization (Elective)&#xa;Management Information Systems (Elective)&#xa;E-Business Application Development (Elective)&#xa;&#xa;To Enroll&#xa;&#x9;Three Passes in Physical Science stream (with mathematics as a subject) in a single sitting&#xa;&#x9;One of the following examinations or equivalent foreign qualifications is the minimum entry requirement. Equivalent foreign qualification &#x9;&#x9;is defined as the minimum requirement for admission to the first year of a UGC recognized university in that country&#xa;&#x9;&#x9;G.C.E. Advanced Level examination conducted by the Department of Examinations, Sri Lanka&#xa;&#x9;&#x9;G.C.E Advanced Level examination conducted by Pearson Edexel, UK (London A/L)&#xa;&#x9;&#x9;International Advanced Level examination conducted by Pearson Edexel, UK&#xa;&#x9;&#x9;G.S.E Advanced Level examination conducted by Cambridge International Examinations, UK&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee : LKR 5,000&#xa;&#x9;Library Fee : LKR 5,000&#xa;&#x9;Year 1 : LKR 400,000&#xa;&#x9;Year 2 : LKR 400,000&#xa;&#x9;Year 3 : LKR 300,000&#xa;&#x9;Year 4 : LKR 300,000&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel19">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc (Honours) in Software Engineering"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel20">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Special-4 Years"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel21">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="General-3 Years "/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea6">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="There are hundreds of graduates produced by NSBM in the field of Management Information Systems and all the graduates are working in large and reputed Software Development Companies and leading banks in Srilanka.&#xa;NSBM is having more than 15 Years maturity (Including the experience at NIBM) in awarding degrees in Information Systems.&#xa;Another important fact in this degree program is students are more exposed into good job opportunities while they are completing the internship in the third year of the academic calendar.&#xa;Finding interns is not a big challenge to NSBM students as they are well developed in skills and professionally groomed during the first two academic years.&#xa;NSBM take the responsibility of placing students in internships and most of the time these students get the employment in the same place as their performance are up to the industry standard.&#xa;&#xa;YEAR 1&#xa;Full Time&#xa;&#xa;Introduction to Computer Science&#xa;Mathematics for Computing&#xa;C Language and Data Structures&#xa;Computer Organization&#xa;OOP with C++&#xa;Business Information Systems&#xa;Database Management Systems&#xa;Programming in JAVA&#xa;System Software&#xa;Visual Basic .Net Programming&#xa;Internet Programming&#xa;System Analysis and Design&#xa;Soft Skills&#xa;System Design Project&#xa;YEAR 2&#xa;Full TIme&#xa;&#xa;Management Practices&#xa;Software Engineering&#xa;Data Structures &amp; Algorithms&#xa;Business Statistics for Information Technology&#xa;Advance Database Management Systems&#xa;Object Oriented Programming and Design 1&#xa;Agile Software Development Methodologies&#xa;Operational Research&#xa;Object Oriented Programming and Design II&#xa;Distributed Processing&#xa;Data Warehousing and Data Mining&#xa;Computer Networking&#xa;Soft Skills&#xa;System Design Project&#xa;YEAR 3&#xa;Part Time&#xa;&#xa;Industrial Training&#xa;Management Information Systems&#xa;Database and Information Resource Management&#xa;IT Project Management&#xa;Fundamentals of E- Business&#xa;Computer Architecture&#xa;YEAR 4&#xa;Part Time&#xa;&#xa;Management Support Systems&#xa;Technical Communication&#xa;Information Security&#xa;Object Oriented Programming III&#xa;Business Policy and Strategy&#xa;Professional Issues in ICT&#xa;Software Quality Assurance&#xa;Final Project&#xa;&#xa;Entry Requirement:&#xa;&#x9;&#x9;Five credits at the GCE Ordinary Level including Mathematics and English&#xa;&#xa;&#x9;&#x9;Three passes for GCE Advanced Level in one attempt&#xa;&#xa;Fees&#xa;&#xa;&#x9;Year 1 : LKR 400,000&#xa;&#x9;Year 2 : LKR 400,000&#xa;&#x9;Year 3 : LKR 300,000&#xa;&#x9;Year 4 : LKR 300,00&#xa;&#x9;Registration Fee : 5,000&#xa;&#x9;Library Fee : LKR 5,000"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel22">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc (Honours) in Information System"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel23">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Special-4 Years"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel24">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="General-3 Years "/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea7">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="Technical understanding of computer science Body of Knowledge.&#xa;Familiarity with common CS themes and principles such as abstraction, complexity, and evolutionary change, and a set of general principles, such as sharing a common resource, security, and concurrency.&#xa;Appreciation of the interplay between theory and practice&#xa;System-level perspective; ability to think at multiple levels of detail andabstraction.&#xa;Problem solving skills&#xa;Project experience&#xa;Commitment to life-long learning&#xa;Commitment to professional responsibility, recognizing the social, legal, ethical, and cultural issues inherent in the discipline of computing.&#xa;Communication and organizational skills&#xa;Awareness of the broad applicability of computing, ranging from embedded micro-sensors to high-performance clusters and distributed clouds.&#xa;Appreciation of domain-specific knowledge&#xa;&#xa;Year 1&#xa;&#xa;Mathematics I&#xa;Introduction to Computer Science&#xa;Programming in C&#xa;Professional Development&#xa;Object Oriented Programming with Java&#xa;Database Management Systems&#xa;Algorithms and Data structures&#xa;Computer Architecture&#xa;Data communications and networks&#xa;Web Based Application Development&#xa;Year 2&#xa;&#xa;Computer Networks&#xa;Systems Analysis and Design&#xa;Operating Systems&#xa;Mathematics II&#xa;Introduction to Software Engineering&#xa;Development of Enterprise Applications I&#xa;Systems Fundamentals&#xa;Algorithms and Complexity&#xa;Software Architecture&#xa;Human Computer Interaction&#xa;&#xa;Year 3&#xa;Computational Theory&#xa;Information Assurance and Security&#xa;Mathematics III&#xa;Programming Languages and Compiler Design&#xa;Social Issues and Professional Practice&#xa;Advanced Database Management Systems&#xa;Internship&#xa;Cryptography&#xa;SW Process Management&#xa;Mobile Application Development&#xa;Wireless Technologies and Network Programming&#xa;&#xa;Year 4&#xa;Entrepreneurship&#xa;Business Policy and Strategy&#xa;CS Honours Award Project&#xa;Computer Graphics and Visualization&#xa;Intelligent Systems&#xa;Parallel and Distributed Computing&#xa;Platform Based Development&#xa;Bio Informatics&#xa;Agent Based Systems&#xa;Internet of Things&#xa;Embedded Systems&#xa;Development of Enterprise Applications II&#xa;Data Warehousing and Data Mining&#xa;&#xa;Entry Requirement:&#xa;&#x9;Three Passes in Physical Science stream (with mathematics as a subject) in a single sitting (Combined Mathematics, Higher Mathematics, Chemistry, Physics, ICT)&#xa;&#x9;G.C.E. Advanced Level examination conducted by the Department of Examinations, Sri Lanka&#xa;&#x9;G.C.E Advanced Level examination conducted by Pearson Edexel, UK (London A/L)&#xa;&#x9;International Advanced Level examination conducted by Pearson Edexel, UK&#xa;&#x9;G.S.E Advanced Level examination conducted by Cambridge International Examinations, UK&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee: LKR 5000&#xa;&#x9;Year 1: LKR 400,000&#xa;&#x9;Year 2: LKR 400,000&#xa;&#x9;Year 3: LKR 300,000&#xa;&#x9;Year 4: LKR 300,000&#xa;&#x9;Library Fee: LKR 5000"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelEng">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="card4"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel25" min="-2" pref="344" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel26" min="-2" pref="142" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="textArea8" min="-2" pref="759" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel25" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                              <Component id="jLabel26" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="textArea8" min="-2" pref="441" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.TextArea" name="textArea8">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="Computer Systems Engineering is a discipline that embodies the science and technology of design, construction, implementation, and maintenance of software and hardware components of modern computing systems, computer controlled equipment, and networks of intelligent devices. Traditionally, computer engineering is some combination of both electrical engineering and computer science. It has evolved over the past decades as a separate, although intimately related, discipline. Computer engineering is solidly grounded in the theories and principles of computing, mathematics, science, and engineering and it applies these theories and principles to solve technical problems through the design of computing hardware, software, networks, and processes.&#xa;BSc Engineering Honours in Computer Systems Engineering programme at NSBM, aims to produce graduates with the following specific characteristics, in line with internationally recognized norms and expectations.&#xa;&#xb7;       Able to design computers, computer-based systems and networks that include both hardware and software and their integration to solve novel engineering problems, subject to trade-offs involving a set of competing goals and constraints. In this context, &#x201c;design&#x201d; refers to a level of ability beyond &#x201c;assembling&#x201d; or &#x201c;configuring&#x201d; systems.&#xa;&#xb7;       Have a breadth of knowledge in mathematics and engineering sciences, associated with the broader scope of engineering and beyond that is required for the field.&#xa;&#xb7;       Maintain a preparation for professional practice in engineering.&#xa;&#xa;Career Opportunities&#xa;&#xa;Graduates find employment as design, implementation, deployment, maintenance and sales engineers in a broader variety of sectors including&#xa;&#xb7;       Computer and Software industries&#xa;&#xb7;       Consumer electronic industries&#xa;&#xb7;       Manufacturing&#xa;&#xb7;       Automotive Industries&#xa;&#xb7;       Aviation Industries&#xa;&#xb7;       Mass transportation industries&#xa;&#xb7;       Building Services&#xa;&#xb7;       Consultancy&#xa;&#xb7;       Defence&#xa;&#xb7;       Robotics and control&#xa;&#xb7;       Agriculture&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;YEAR 1&#xa;In year 1, all engineering students follow a common curriculum consisting of module from a broader engineering sciences, mathematics, computing and communications skills.&#xa;&#xa;Engineering Mathematics I&#xa;Programming Fundamentals&#xa;Fundamentals of Electrical Engineering&#xa;Electronics I&#xa;Computer Aided Design&#xa;Instrumentation and Control Principles&#xa;Communication Systems &amp; Networks&#xa;Engineering Materials&#xa;Computer Architecture and Organization&#xa;Introductory Mechanics and Fluids&#xa;&#xa;YEAR 2&#xa;In Year 2, students attain more specialized learning relating to Computer Systems Engineering while further developing the body of knowledge relating to the engineering discipline in general. The students take 10 taught modules in year 2 and 12 weeks of industry placement.&#xa;&#xa;Object Oriented Software Development&#xa;Algorithms&#xa;Operating Systems&#xa;Digital Design and Embedded Software&#xa;Modern Communication Systems&#xa;Electronics II&#xa;Engineering Electromagnetics&#xa;Analogue Communications&#xa;Industrial Placement I&#xa;Engineering Mathematics 2&#xa;Thermodynamics&#xa;&#xa;YEAR 3&#xa;In Year 3, students continue to follow more specialized modules on Computer Systems Engineering. Students also undertake the second part of the industry placement. Students also get an opportunity to choose up to 3 elective modules considering their subject preferences.&#xa;&#xa;Database Systems&#xa;Advanced Computer Networks&#xa;Computer Systems Engineering&#xa;Programming Languages and Syntax Directed Tools&#xa;Software Engineering&#xa;Signals and Systems&#xa;Industry Placement II&#xa;Antennas and Propagation (Elective)&#xa;Advanced Digital Design (Elective)&#xa;VLSI Design (Elective)&#xa;Satellite and Mobile Communications (Elective)&#xa;Robotics (Elective)&#xa;Digital Communications (Elective)&#xa;&#xa;YEAR 4&#xa;In Year 4, students follow specialized modules. Students also follow few common modules relating to business &amp; commerce, and professional practice. Students also enjoy up to two elective modules to choose from a few recommended modules. Engineering Honors Thesis is a capstone project that allows students to demonstrate their learning over the years.&#xa;&#xa;Strategic Entrepreneurship and Innovation&#xa;Network Systems and Technologies&#xa;Intelligent Systems&#xa;Mobile and Distributed Computing&#xa;Engineering Professional Issues&#xa;Engineering Projects Management&#xa;Engineering Honours Thesis&#xa;Digital Signal Processing (Elective)&#xa;Advanced Electrical/Electronic Simulation &amp; Control (Elective)&#xa;Optical Communication and Networks (Elective)&#xa;Machine Vision (Elective)&#xa;&#xa;To Enroll&#xa;&#x9;Three Passes in Mathematics stream (Combined Mathematics, Physics and Chemistry) in a single sitting, at one of the following examinations or equivalent foreign qualification.&#xa;&#x9;GCE Advanced Level examination&#xa;&#x9;GCE Advanced Level by Pearson Edexel, UK (London A/L)&#xa;&#x9;International Advanced Level by Pearson Edexel, UK&#xa;&#x9;GSE Advanced Level examination by Cambridge International Examinations, UK&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee: LKR 5000&#xa;&#x9;Year 1: LKR 600,000&#xa;&#x9;Year 2: LKR 600,000&#xa;&#x9;Year 3: LKR 600,000&#xa;&#x9;Year 4: LKR 600,000&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel25">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="BSc (Honours) in Software Engineering"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel26">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="4 Years(Full time)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelMasterbus">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="card5"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textArea9" alignment="0" min="-2" pref="779" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel27" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel27" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="jLabel28" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="textArea9" min="-2" pref="231" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel27">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Master of Business Administration"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel28">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="2 year(Part time)"/>
+                  </Properties>
+                </Component>
+                <Component class="java.awt.TextArea" name="textArea9">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="We deviate from the traditional one way delivery to interactive learning for better outcomes&#xa;&#xa;Delivery of every course element is designed to provide industry experience within an academic framework&#xa;&#xa;We emphasize case based learning in the delivery&#xa;&#xa;Residential workshops are organized to bring the theory to real life experience and to promote industry networking among students for a more collaborative national team of professionals&#xa;&#xa;Flexibility is available for early exit with a &#x2018;Masters&#x2019; qualification or for specialization in three major areas of through elective courses&#xa;&#xa;Training in scientific problem analyzing&#xa;&#xa;Compulsory research report provides training on problem solving for practitioners and an academic achievement for those who wish to experience further academic improvements&#xa;&#xa;A compulsory foreign visit, provided for free, is designed to be executed by way of a well-designed study project providing an exposure to the global business practice&#xa;&#xa;Option to exit with MBS (Master of Business Studies) in one year.&#xa;&#xa;&#xa;YEAR 1 - SEMESTER 1 (FIRST HALF)&#xa;Module - Foundation&#xa;&#xa;Business Economics&#xa;Enterprise Management&#xa;Quantitative Methods for Management&#xa;Accounting for Decision Makers&#xa;Business Communication (Residential Workshop)&#xa;YEAR 1 - SEMESTER 1 (SECOND HALF)&#xa;Module - Functional Expertise&#xa;&#xa;Marketing Management&#xa;Human Resources Management&#xa;Strategic Management&#xa;Managing Operations in Business&#xa;YEAR 1 - SEMESTER 2 (FIRST HALF)&#xa;Module - Functional Expertise&#xa;&#xa;Management Finance&#xa;Organisational Behaviour&#xa;Legal Aspects for Managers&#xa;International Business Management&#xa;Managing Information Systems&#xa;YEAR 1 - SEMESTER 2 (SECOND HALF)&#xa;Module - Functional Expertise&#xa;&#xa;Business Ethics and Sustainability&#xa;Residential Workshop 2&#xa;Independent Study&#xa;YEAR 2 - SEMESTER 3 (FIRST HALF)&#xa;Module - Concentration Electives&#xa;&#xa;Research Workshop 1&#xa;Research Workshop 2&#xa;Any three courses of the following&#xa;For speciality in operations:&#xa;1. Logistics and Supply Chain Management&#xa;2. Strategic Cost Analysis&#xa;3. Innovation and Technology Management&#xa;4. Strategies for products and Service Development&#xa;For speciality in Managing People:&#xa;1. Cross Cultural Management&#xa;2. Industry and competitive analysis&#xa;3. Managing Corporate Turnarounds&#xa;4. Organisational Leadership and culture&#xa;For speciality in Entrepreneurship:&#xa;1. Strategic Corporate Social Responsibility&#xa;2. Innovation and Entrepreneurship&#xa;3. Management Consultancy&#xa;4. Small Business Management&#xa;YEAR 2 - SEMESTER 3 (SECOND HALF)&#xa;Module - Concentration Electives&#xa;&#xa;Research Report&#xa;Any two courses of the following&#xa;For speciality in operations:&#xa;1. Managing Service operations&#xa;2. Big Data Analysis&#xa;3. Quantitative Methods for Process Engineering&#xa;4. Process Engineering and Quality Management&#xa;For speciality in Managing People:&#xa;1. Knowledge Management&#xa;2. Personal Skills for Managers&#xa;3. Leadership and Leading Organisations&#xa;4. Project Management&#xa;For speciality in Entrepreneurship:&#xa;1. Strategic Cost Analysis&#xa;2. Managing Service Operations&#xa;3. Big Data Analysis&#xa;4. Project Management&#xa;YEAR 2 - SEMESTER 4 (FIRST HALF)&#xa;Module - Application Competencies&#xa;&#xa;Research Report&#xa;Business Negotiating Skills&#xa;YEAR 2 - SEMESTER 4 (SECOND HALF)&#xa;Module - International Exposure&#xa;&#xa;Research Report&#xa;International Business Practice &#x2013; case study&#xa;&#xa;To Enroll&#xa;&#x9;No person shall be registered for the Programme of study leading to the Degree of Master of Business Studies or Master of Business Administration unless candidate possesses any one of the following qualifications:&#xa;&#x9;&#xa;&#x9;A Degree in the field of Commerce, Economics, Management, Business or Accounting or in a related field, awarded by a recognized institution; Or&#xa;&#x9;A Degree in any other field other than those mentioned above, awarded by any recognized institution and a minimum of one year&#x2019;s executive experience in a field acceptable to the Board of Studies for Postgraduate Programmes, or,&#xa;&#x9;A PGD in Business Management, awarded by an institution acceptable to the NSBM and a minimum of two years&apos; experience at executive level in the field of business management in an institution acceptable to the NSBM, or,&#xa;&#x9;Any recognized professional qualification that is acceptable, on a case by case basis, and a minimum of two years&#x2019; work experience in a managerial capacity in an institution acceptable to the NSBM&#xa;&#x9;And A good working knowledge of English&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee: LKR 10,000&#xa;&#x9;Course Fee (Year 1) - LKR 250,000 (125,000 x 2)&#xa;&#x9;Course Fee (Year 2) - LKR 250,000 (125,000 x 2)&#xa;&#x9;&#x9;(Fee shown here is without the cost for the foreign trip; which is an additional Rs. 100,000.00 should the student decides to incur it)&#xa;&#x9;Library Fee: LKR 5,000&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelMasterCom">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                  <CardConstraints cardName="card6"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textArea11" min="-2" pref="701" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel31" min="-2" pref="280" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                  <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel31" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="jLabel32" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="textArea11" min="-2" pref="231" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="java.awt.TextArea" name="textArea11">
+                  <Properties>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Default Cursor"/>
+                    </Property>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="rows" type="int" value="6"/>
+                    <Property name="text" type="java.lang.String" value="NSBM&#x2019;s concern for conducting this programme in Computer Network emerged from the appreciation of a responsibility to offer a state of the art technical education to the industry practitioners. This also needs to be seen as the critical and continuing effort by NIBM (National Institute of Business Management) to qualify the computer network professionals within organizations, one of the major agenda of our time.&#xa;&#xa;his course facilitate to fill the increasing demand in current industry to pursue postgraduate level qualifications. This programme examines principles, design, implementation, and performance or computer networks.&#xa;&#xa;A focus will be placed on wireless networking, reflecting rapid advances in this area.&#xa;&#xa;Students may formulate their own final projects based on their interests and background.&#xa;&#xa;The course will be conducted in a more seminar-like manner than lectures, but will have a more formal schedule.&#xa;&#xa;Year 1&#xa;&#xa;Computer Network Design&#xa;Network Models and TCP/IPv6&#xa;Routing and Switching&#xa;Network Planning Implementing and Administration&#xa;Voice and Telephony Technologies&#xa;&#xa;&#xa;Year 2&#xa;&#xa;Wireless Communication&#xa;Service Provider Networks&#xa;Network Operations&#xa;Network Security&#xa;Disaster Recovery and High availability Techniques&#xa;Final Network project (Individual)&#xa;&#xa;To Enroll&#xa;&#x9;A student must possess at least one on the following requirements to enter to the program&#xa;&#x9;&#x9;A Degree in computer/engineering/physical science obtained from a recognized university/Institution OR&#xa;&#x9;&#x9;A Degree in other Discipline obtained from a recognized university/Institution with one (01) year post qualifying working experience in executive capacity OR&#xa;&#x9;&#x9;Professional qualification from a recognized professional body acceptable to the Governing Body of the National Institute of Business Management with a minimum of two (02) years post qualifying working experience in executive capacity &#x9;&#x9;&#x9;OR&#xa;&#x9;&#x9;A Diploma obtained from a recognized University/Institute acceptable to the Governing Board of the National School of Business Management with three (03) years post qualifying working experience in executive capacity OR&#xa;&#x9;&#x9;Minimum of 05 years sustained work experience in a Managerial Level in a recognized institution (Government or Private). Subjected to the approval of the Academic Governing Council of NSBM.&#xa;&#xa;Fees:-&#xa;&#xa;&#x9;Registration Fee : LKR 5,000&#xa;&#x9;Course Fee : LKR 200,000 (100,000 x 2)&#xa;&#x9;Library Fee : LKR 5,000&#xa;&#xa;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel31">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Postgraduate Diploma in Computer Networks"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel32">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="2 year(Part time)"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
