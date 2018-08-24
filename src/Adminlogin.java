@@ -185,7 +185,7 @@ public class Adminlogin extends javax.swing.JFrame {
         jPanel2.add(jPanel3);
         jPanel3.setBounds(0, 0, 0, 0);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\Campus Stuff\\Assignment\\cap.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\hp\\Desktop\\16001321\\SoftCopy\\Assignment\\cap.jpg")); // NOI18N
         jPanel2.add(jLabel3);
         jLabel3.setBounds(0, 0, 900, 280);
 
